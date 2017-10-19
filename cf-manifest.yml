@@ -1,0 +1,11 @@
+--- 
+applications: 
+  - 
+    buildpack: java_buildpack
+    instances: 1
+    memory: 750M
+    name: roster
+    path: /build/libs/roster.jar
+    random-route: true
+    timeout: 180
+    
